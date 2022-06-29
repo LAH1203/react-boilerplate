@@ -33,5 +33,8 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, './dist'),
     port: 9000,
+    client: {
+      logging: 'none',
+    },
   },
 };
