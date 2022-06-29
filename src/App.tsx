@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Main from 'pages/Main/Main';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
