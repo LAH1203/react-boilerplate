@@ -1,8 +1,9 @@
 import React from 'react';
-import Footer from '../../components/Footer';
-import Header from '../../components/Header';
 
-const Main = () => {
+import Footer from 'components/Footer';
+import Header from 'components/Header';
+
+function Main() {
   return (
     <>
       <Header />
@@ -10,6 +11,6 @@ const Main = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default Main;
